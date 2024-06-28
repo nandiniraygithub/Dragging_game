@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload and Display</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <div class="box1" id="outside">
+            <div class="smallbox-1" id="smallbox">
+                <div class="box-content"> Minister of Defence  </div>
+            </div>
+        </div>
+        <div class="box2" id="outside">
+            <div class="smallbox-2" id="smallbox">
+                <div class="box-content"> Minister of Road Transport and Highways </div>
+            </div>
+        </div>
+        <div class="box3" id="outside">
+            <div class="smallbox-3" id="smallbox">
+                <div class="box-content">Minister of Education </div>
+            </div>
+        </div>
+        <div class="box4" id="outside">
+            <div class="smallbox-4" id="smallbox">
+                <div class="box-content"> Minister of Food Processing Industries </div>
+            </div>
+        </div>
+        <div class="box5" id="outside">
+            <label for="image_input" class="file-input-label">
+                Choose Images
+                <input type="file" id="image_input" accept="image/png, image/jpg, image/jpeg" multiple>
+                
+            </label>
+          
+
+            <div id="display_image" class="image-container"></div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

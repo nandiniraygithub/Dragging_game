@@ -1,0 +1,152 @@
+/* Apply styles to the entire HTML document */
+html {
+    background-color:#212228;
+    background-image: linear-gradient(#292a30 .1em, transparent .1em), 
+    linear-gradient(90deg, #292a30 .1em, transparent .1em);
+    background-size: 4em 4em;
+    height: 100vh;
+}
+
+/* Styling for boxes 1 through 5 */
+.box1, .box2, .box3, .box4, .box5 {
+    width: 1490px; /* Fixed width for the boxes */
+    height: 150px; /* Fixed height for the boxes */
+    border: 3px dashed aliceblue; /* Border style and color */
+    position: relative; /* Positioning context */
+    margin-bottom: 20px; /* Spacing between boxes */
+    border-radius: 10px;
+}
+
+/* Styling for small boxes inside each main box */
+.box1 .smallbox-1,
+.box2 .smallbox-2,
+.box3 .smallbox-3,
+.box4 .smallbox-4 {
+
+    
+    height: 150px; /* Fixed height for small boxes */
+    width: 150px; /* Fixed width for small boxes */
+    position: absolute; /* Absolute positioning within parent */
+    top: 50%; /* Center vertically */
+    left: 7.9%; /* Offset from the left */
+    border-radius: 10px;
+    transform: translate(-50%, -50%); /* Center horizontally */
+}
+
+/* Background colors for each small box */
+.box1 .smallbox-1 { background-color: #ea6767; }
+.box2 .smallbox-2 { background-color: #a1f1a1; }
+.box3 .smallbox-3 { background-color: #a1b7ee; }
+.box4 .smallbox-4 { background-color: #e1e179; }
+
+/* Common styling for box content */
+.box-content {
+    text-align: center; /* Center align text */
+    font-weight: bold; /* Bold font weight */
+    padding-top: 15%; /* Top padding for content */
+    font-size: large;
+    color: #000000; /* Larger font size */
+}
+
+
+.image-container {
+    width: 100px;
+    max-width: 1200px;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.image-container img {
+    height: auto;
+    max-height: 200px;
+    width: auto;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.image-wrapper {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    border-radius:10px ;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.image-wrapper button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+   
+    color: white;
+    border: none;
+    padding: 2px 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.image-wrapper button:hover {
+    background-color: #ef0d0d;
+}
+.file-input-label {
+    display: inline-block;
+    padding: 12px 20px;
+    background: linear-gradient(45deg, #ff6b6b, #feca57, #48dbfb, #ff9ff3);
+    background-size: 300% 300%;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: gradient 5s ease infinite;
+}
+
+.file-input-label:hover {
+    background-size: 400% 400%;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.file-input-label:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#image_input {
+    display: none;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
