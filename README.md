@@ -29,4 +29,4 @@ Feel free to submit issues or pull requests if you find any bugs or have suggest
 
 For any inquiries, please contact [your email](nandini16ray@gmail.com).
 
-![Drag and Drop in JS](images/image.png)
+![Drag and Drop in JS](image.png)
