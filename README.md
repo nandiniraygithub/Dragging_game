@@ -9,20 +9,13 @@ Check out the demo of the dragging game application  <a href="http://example.com
 
 ## YouTube Link
 
-Watch a detailed explanation and walkthrough of the dragging game on YouTube [here](#).
+Watch a detailed explanation and walkthrough of the dragging game on YouTube [here](https://www.youtube.com/watch?v=98XgL4mrwTI).
 
 ## Tech Stack
 - HTML
 - CSS
 - JavaScript
 
-## How to Use
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/drag-and-drop-in-js.git
-    cd drag-and-drop-in-js
-    ```
 
 2. Open the `index.html` file in your web browser to see the dragging game in action.
 
@@ -30,11 +23,9 @@ Watch a detailed explanation and walkthrough of the dragging game on YouTube [he
 
 Feel free to submit issues or pull requests if you find any bugs or have suggestions for new features.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-For any inquiries, please contact [your email](mailto:youremail@example.com).
+For any inquiries, please contact [your email](nandini16ray@gmail.com).
 ![Drag and Drop in JS](images/image.png)
