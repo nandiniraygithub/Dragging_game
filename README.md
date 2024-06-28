@@ -5,7 +5,7 @@ This repository contains the code and resources for a dragging game using HTML, 
 
 ## Demo
 
-Check out the demo of the dragging game application [here](#).
+Check out the demo of the dragging game application  <a href="http://example.com/demo" target="_blank">here</a>.
 
 ## YouTube Link
 
